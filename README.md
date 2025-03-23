@@ -45,3 +45,50 @@ A hybrid extractive-abstractive model for summarizing scientific research papers
 - LED-based architecture for long document summarization  
 
 ## Repository Structure  
+
+
+
+
+
+
+
+
+
+
+
+## Setup Instructions  
+
+### Prerequisites  
+- Python **3.7+**  
+- Git  
+
+### Installation  
+
+###Clone the repository:  
+```bash
+git clone https://github.com/HARSHDIPSAHA/braindead_1-2.git
+cd braindead_1-2
+```
+
+###Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+###Install dependencies for both projects:
+
+```bash
+# For PS1: IPL Analysis
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost tensorflow
+
+# For PS2: Paper Summarization
+pip install torch transformers pandas numpy scikit-learn rouge-score nltk
+
+# For PS2: Download NLTK resources
+python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+
+```
+
+
+
